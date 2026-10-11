@@ -1,15 +1,31 @@
 {
-  "id": "/Barrett-pit-team/barrett-pit-crew-v2",
+  "id": "/Barrett-pit-team/barrett-pit-crew-2026",
   "name": "Barrett Pit Crew",
   "short_name": "Barrett Pit Crew",
-  "description": "Offline-first race car setup, adjustments, sessions, and pit crew tracking.",
-  "start_url": "/Barrett-pit-team/index.html",
-  "scope": "/Barrett-pit-team/",
+  "description": "Barrett Racing pit crew setup, tire adjustments, sessions, maintenance and history.",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#05070b",
   "theme_color": "#05070b",
   "icons": [
-    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
-    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
