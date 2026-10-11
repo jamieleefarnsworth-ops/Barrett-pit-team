@@ -1,25 +1,15 @@
 {
-  "id": "./",
-  "name": "Car #10 Pit Crew",
-  "short_name": "Car #10",
-  "description": "Offline-first pit crew test app for Car #10",
-  "start_url": "./index.html",
-  "scope": "./",
+  "id": "/Barrett-pit-team/barrett-pit-crew-v2",
+  "name": "Barrett Pit Crew",
+  "short_name": "Barrett Pit Crew",
+  "description": "Offline-first race car setup, adjustments, sessions, and pit crew tracking.",
+  "start_url": "/Barrett-pit-team/index.html",
+  "scope": "/Barrett-pit-team/",
   "display": "standalone",
   "background_color": "#05070b",
   "theme_color": "#05070b",
   "icons": [
-    {
-      "src": "./icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "./icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    }
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
   ]
 }
